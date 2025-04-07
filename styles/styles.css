@@ -1,0 +1,20 @@
+:root {
+    --rainbow-1: #FF6B6B;
+    --rainbow-2: #FFA36B;
+    --rainbow-3: #FFD56B;
+    --rainbow-4: #A3FF6B;
+    --rainbow-5: #6BFFD5;
+    --rainbow-6: #6BA3FF;
+    --rainbow-7: #D56BFF;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, var(--rainbow-1), var(--rainbow-3), var(--rainbow-5), var(--rainbow-7));
+    margin: 0;
+    padding: 20px;
+    animation: rainbowBg 15s infinite alternate;
+}
+
+/* Full CSS from earlier goes here */
+/* Include all the styles from your original single-file version */
